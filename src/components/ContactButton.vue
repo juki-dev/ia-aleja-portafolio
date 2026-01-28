@@ -1,13 +1,18 @@
 <template>
-  <a class="btn" :href="href" target="_blank" rel="noreferrer">
+  <a class="btn" :href="href || emailHref" target="_blank" rel="noreferrer">
     <span class="spark">🤝</span>
     <span>Contáctame</span>
   </a>
 </template>
 
 <script setup>
-defineProps({
-  href: { type: String, default: 'mailto:alejandra@example.com' }
+import profileData from '../data/profile.json'
+
+const profile = profileData
+const emailHref = `mailto:${profile.email}`
+
+const props = defineProps({
+  href: { type: String, default: '' }
 })
 </script>
 

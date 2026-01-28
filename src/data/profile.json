@@ -1,0 +1,15 @@
+{
+  "name": "Alejandra Pantoja",
+  "role": "Ux Writer",
+  "phone": "+57 3003679301",
+  "linkedin": {
+    "url": "https://www.linkedin.com",
+    "username": "Malejapg",
+    "displayText": "Linked in: Malejapg"
+  },
+  "email": "alejandra@example.com",
+  "avatar": {
+    "url": "",
+    "fallback": "👩🏻‍💻"
+  }
+}

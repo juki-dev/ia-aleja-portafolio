@@ -1,0 +1,136 @@
+{
+  "experiences": [
+    {
+      "company": "inDriveMoney - App préstamos de inDrive",
+      "role": "Ux writer",
+      "date": "Febrero 2024 - Mayo 2026",
+      "bullets": [
+        "Escritura UX y redacción para productos de Créditos y Tarjetas en app.",
+        "Optimización de flujos, reducción de fricción y mejora en tasas de conversión.",
+        "Creación de guías de localización, onboarding, emails y push.",
+        "Alineación con normas, tono y voice, y coordinación con equipos legales.",
+        "Investigación de usuario, análisis de insights y validación de mensajes."
+      ],
+      "logoText": "iD",
+      "logoBg": "rgba(34,197,94,0.25)",
+      "extraTitle": "",
+      "extraBullets": []
+    },
+    {
+      "company": "Bancolombia - Multiplica",
+      "role": "Chatbot designer / Senior UX writer",
+      "date": "Nov 2023 (pausa) y retomé en Mayo de 2026",
+      "bullets": [
+        "Liderar la escritura UX y el diseño conversacional para productos clave.",
+        "Creación de guías y lineamientos de voz y tono para Tabot en WhatsApp.",
+        "Definir mensajes, botones y jerarquía para mejorar comprensión y acción.",
+        "Coordinar con legal, fraude y producto para asegurar cumplimiento.",
+        "Ajustar contenidos con base en hallazgos, métricas y pruebas."
+      ],
+      "logoText": "B",
+      "logoBg": "rgba(59,130,246,0.18)",
+      "extraTitle": "",
+      "extraBullets": []
+    },
+    {
+      "company": "Unites",
+      "role": "Ux writer expert",
+      "date": "Mayo 2022 - Noviembre 2023",
+      "bullets": [
+        "Escritura UX para el crecimiento de la app.",
+        "Creación de tablas de NPS para mejorar la experiencia de usuarios.",
+        "Investigación y análisis de intención para mejorar la localización.",
+        "Participación en iniciativas de revenue y growth.",
+        "Organización de catálogos/landings y redacción orientada a conversión."
+      ],
+      "logoText": "U",
+      "logoBg": "rgba(59,130,246,0.16)",
+      "extraTitle": "",
+      "extraBullets": []
+    },
+    {
+      "company": "BBVA - The Bridge",
+      "role": "Ux writer / CTO Dynamics QA",
+      "date": "Freelance ocasional por proyectos durante todo 2022",
+      "bullets": [
+        "Escritura UX para productos bancarios de BBVA.",
+        "Construcción y alistamiento de flujos UI/UX.",
+        "Microcopy para registro, pagos, transferencias y notificaciones.",
+        "Apoyo en documentación y estandarización de contenido financiero.",
+        "Trabajo con metodologías ágiles y equipos multidisciplinarios."
+      ],
+      "logoText": "BB",
+      "logoBg": "rgba(17,24,39,0.06)",
+      "extraTitle": "",
+      "extraBullets": []
+    },
+    {
+      "company": "Discovery Kids - Tecnomakers SAS",
+      "role": "Ux writer",
+      "date": "Enero 2021 - Febrero 2022",
+      "bullets": [
+        "Escritura UX para plataformas de streaming (Discovery+ y Discovery Kids).",
+        "Iteración de copy para flujos de suscripción y acceso al contenido.",
+        "Microcopy para navegación, reproducción y control parental.",
+        "Acompañamiento a insights para mejorar usabilidad y claridad.",
+        "Coordinación con equipos de producto y diseño."
+      ],
+      "logoText": "DK",
+      "logoBg": "rgba(34,197,94,0.14)",
+      "extraTitle": "",
+      "extraBullets": []
+    },
+    {
+      "company": "Start Up La Haus",
+      "role": "Content writer",
+      "date": "Febrero 2020 - Febrero 2021",
+      "bullets": [
+        "Escritura y copy para soluciones de bienes raíces.",
+        "Redacción de emails, SMS y publicidad online.",
+        "Creación de contenido en SEO.",
+        "Comunicación y coordinación con equipos comerciales."
+      ],
+      "logoText": "LH",
+      "logoBg": "rgba(245,158,11,0.16)",
+      "extraTitle": "Productos digitales trabajados",
+      "extraBullets": [
+        "Escritura UX para historias/landings de proyectos inmobiliarios.",
+        "Redacción y estructuración de la nueva página de inicio."
+      ]
+    },
+    {
+      "company": "Picap - Cap Technologies S.A.S",
+      "role": "Copywriter",
+      "date": "Octubre 2019 - Abril 2020",
+      "bullets": [
+        "Creación y mantenimiento de estrategias de marketing 360.",
+        "Redacción y publicación de contenidos en app (UX writing).",
+        "Ideación de emails, SMS y push para conversión.",
+        "Gestión de campañas y comunicación con RRPP."
+      ],
+      "logoText": "P",
+      "logoBg": "rgba(59,130,246,0.14)",
+      "extraTitle": "Community Manager (Ascenso a copywriter)",
+      "extraBullets": [
+        "Julio 2019 - Diciembre 2019",
+        "Creación de campañas de contenido.",
+        "Gestión y redacción de redes sociales."
+      ]
+    },
+    {
+      "company": "LSO Agency",
+      "role": "Community manager",
+      "date": "Marzo 2017 - Octubre 2019",
+      "bullets": [
+        "Diseño y creación de contenido para redes sociales y sitio web.",
+        "Conceptualización y gestión de redes sociales.",
+        "Planificación de campañas.",
+        "Gestión de comunidad online."
+      ],
+      "logoText": "LS",
+      "logoBg": "rgba(17,24,39,0.06)",
+      "extraTitle": "",
+      "extraBullets": []
+    }
+  ]
+}

@@ -3,16 +3,16 @@
     <!-- Perfil -->
     <section class="card pad profile">
       <div class="avatar">
-        <img v-if="avatarUrl" :src="avatarUrl" alt="Avatar" />
-        <div v-else class="fallback">👩🏻‍💻</div>
+        <img v-if="profile.avatar.url" :src="profile.avatar.url" alt="Avatar" />
+        <div v-else class="fallback">{{ profile.avatar.fallback }}</div>
       </div>
 
       <div class="who">
-        <div class="name">Alejandra Pantoja</div>
-        <div class="role">Ux Writer</div>
-        <div class="meta">+57 3003679301</div>
-        <a class="link" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
-          Linked in: Malejapg
+        <div class="name">{{ profile.name }}</div>
+        <div class="role">{{ profile.role }}</div>
+        <div class="meta">{{ profile.phone }}</div>
+        <a class="link" :href="profile.linkedin.url" target="_blank" rel="noreferrer">
+          {{ profile.linkedin.displayText }}
         </a>
       </div>
     </section>
@@ -36,28 +36,29 @@
     <!-- Skills list -->
     <div class="skillsTitle">Skills</div>
     <section class="stack">
-      <SkillPill label="Escritura creativa" icon="pen" :bg="'rgba(59,130,246,0.16)'" />
-      <SkillPill label="Figma" icon="badge" :bg="'rgba(59,130,246,0.12)'" />
-      <SkillPill label="Trabajo en equipo" icon="dot" :bg="'rgba(59,130,246,0.10)'" />
-      <SkillPill label="Customer journey" icon="dot" :bg="'rgba(59,130,246,0.10)'" />
+      <SkillPill 
+        v-for="(skill, index) in skills.sidebarSkills" 
+        :key="index"
+        :label="skill.label" 
+        :icon="skill.icon" 
+        :bg="skill.bg" 
+      />
     </section>
   </aside>
 </template>
 
 <script setup>
-import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import Icon from './Icon.vue'
 import SkillPill from './SkillPill.vue'
+import profileData from '../data/profile.json'
+import skillsData from '../data/skills.json'
 
-const props = defineProps({
-  avatarUrl: { type: String, default: '' }
-})
+const profile = profileData
+const skills = skillsData
 
 const route = useRoute()
 const isActive = (path) => (route.path === path ? 'active' : '')
-
-const avatarUrl = computed(() => props.avatarUrl)
 </script>
 
 <style scoped>

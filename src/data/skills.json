@@ -1,0 +1,34 @@
+{
+  "sidebarSkills": [
+    {
+      "label": "Escritura creativa",
+      "icon": "pen",
+      "bg": "rgba(59,130,246,0.16)"
+    },
+    {
+      "label": "Figma",
+      "icon": "badge",
+      "bg": "rgba(59,130,246,0.12)"
+    },
+    {
+      "label": "Trabajo en equipo",
+      "icon": "dot",
+      "bg": "rgba(59,130,246,0.10)"
+    },
+    {
+      "label": "Customer journey",
+      "icon": "dot",
+      "bg": "rgba(59,130,246,0.10)"
+    }
+  ],
+  "about": {
+    "title": "Acerca de mí",
+    "p1": "UX Writer con más de 5 años de experiencia en productos digitales, especializada en servicios financieros. Me enfoco en crear contenidos claros y confiables que simplifiquen la interacción con productos bancarios y fortalezcan la relación con los clientes.",
+    "p2": "Trabajo junto a equipos de diseño, producto y legal para asegurar que cada mensaje cumpla con la regulación, sin perder cercanía con el usuario. Desde la ideación hasta las pruebas, lidero la escritura para que las experiencias digitales sean intuitivas, seguras y significativas."
+  },
+  "personal": {
+    "title": "A nivel personal",
+    "p1": "Soy una persona creativa y curiosa, siempre en búsqueda de aprender y mejorar. Me mantengo al día en tendencias de diseño, escritura y tecnología para crear experiencias digitales confiables y cercanas.",
+    "p2": "En mis tiempos libres canto como mezzosoprano en La Coral Brahms, disfruto del diseño de interiores y me encantan los juegos de mesa que me permitan sumergirme en historias. Doy asesoría a mujeres que quieren iniciar a trabajar en IT y también a personas que tengan bloqueos en su trabajo o busquen una opinión general sobre la redacción en sus sitios web."
+  }
+}

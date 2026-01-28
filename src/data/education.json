@@ -1,0 +1,49 @@
+{
+  "formal": [
+    {
+      "title": "SENA | Servicio Nacional De Aprendizaje",
+      "subtitle": "In progress | Desarrollo de sistemas de la información",
+      "date": ""
+    },
+    {
+      "title": "Universidad de Bogotá Jorge Tadeo Lozano",
+      "subtitle": "2011 - 2016 | Comunicación social-Periodismo",
+      "date": ""
+    }
+  ],
+  "additionalTraining": {
+    "title": "Entrenamiento adicional",
+    "items": [
+      {
+        "title": "UX en Español",
+        "subtitle": "2021 | Masterclass UX Content Testing",
+        "date": ""
+      },
+      {
+        "title": "Linked In",
+        "subtitle": "2020 | Branding Fundamentals",
+        "date": ""
+      },
+      {
+        "title": "Alcaldía Mayor de Bogotá",
+        "subtitle": "2019 | Course in Artificial Intelligence (Básico)",
+        "date": ""
+      },
+      {
+        "title": "",
+        "subtitle": "2019 | Course in Big Data (Básico)",
+        "date": ""
+      },
+      {
+        "title": "Partners Academy",
+        "subtitle": "2019 | Digital Marketing & Digital Business Diplomat",
+        "date": ""
+      },
+      {
+        "title": "SENA",
+        "subtitle": "2016 | Course in Digital Imaging",
+        "date": ""
+      }
+    ]
+  }
+}
