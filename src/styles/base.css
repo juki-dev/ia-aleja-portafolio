@@ -1,0 +1,122 @@
+:root{
+  --bg: #f4f5f7;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --muted2:#9ca3af;
+  --border: rgba(17,24,39,0.08);
+  --shadow: 0 12px 28px rgba(17,24,39,0.10);
+  --shadow-soft: 0 10px 24px rgba(17,24,39,0.08);
+
+  --accent: #2563eb; /* azul del estado activo */
+  --orange: #f59e0b;
+  --green: #22c55e;
+  --blue: #3b82f6;
+
+  --radius-xl: 22px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+
+  --container: 1120px;
+}
+
+*{ box-sizing:border-box; }
+html, body{ height:100%; }
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a{ color:inherit; text-decoration:none; }
+
+.page{
+  min-height: 100vh;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  padding: 26px 22px;
+}
+
+.shell{
+  width: 100%;
+  max-width: var(--container);
+  display:grid;
+  grid-template-columns: 320px 1fr;
+  gap: 26px;
+}
+
+@media (max-width: 980px){
+  .shell{ grid-template-columns: 1fr; }
+}
+
+/* Cards */
+.card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-soft);
+}
+
+.card.pad{ padding: 18px; }
+
+.h1{
+  font-size: 34px;
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.sectionTitle{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtle{ color: var(--muted); }
+.small{ font-size: 12px; color: var(--muted2); }
+
+/* Top area */
+.topbar{
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.contentCol{ padding-top: 6px; }
+
+.stack{ display:flex; flex-direction:column; gap: 16px; }
+
+.listStack{ display:flex; flex-direction:column; gap: 14px; }
+
+/* Pills */
+.pill{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px 14px;
+  box-shadow: 0 8px 18px rgba(17,24,39,0.06);
+}
+
+/* Fine text blocks */
+.p{
+  margin:0;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.hr{
+  height: 1px;
+  background: rgba(17,24,39,0.06);
+  margin: 10px 0;
+  border: none;
+}
