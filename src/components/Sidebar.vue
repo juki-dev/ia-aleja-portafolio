@@ -31,6 +31,10 @@
         <Icon name="badge" :bg="'rgba(59,130,246,0.22)'" />
         <span>Experiencia laboral</span>
       </RouterLink>
+      <RouterLink class="navItem" :class="isActive('/proyectos')" to="/proyectos">
+        <Icon name="star" :bg="'rgba(168,85,247,0.22)'" />
+        <span>Proyectos</span>
+      </RouterLink>
     </section>
 
     <!-- Skills list -->
